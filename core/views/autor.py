@@ -6,4 +6,4 @@ from core.serializers import AutorSerializer
 
 class AutorViewSet(ModelViewSet):
     queryset = Autor.objects.all()
-    serializer_class = AutorSerializer # para pegar todos os campos que estão na classe AutorSerializer
+    serializer_class = AutorSerializer # para pegar todos os campos que estão na classe AutorSerializer'
